@@ -4,13 +4,15 @@ body{
     color: aliceblue; font-family: Arial, Verdana, sans-serif;
 }
 h1{
-    color: aliceblue; font-size: large
+    color: aliceblue; font-size: large; line-height: 200%;
+    text-align: center;
 }
 p{
-    color: cornsilk; font: Georgia, 'Times New Roman', serif; font-weight: bold;
+    color: cornsilk; font: Georgia, 'Times New Roman', serif; font-weight: bold; text-shadow: 3px 5px 8px red;
 }
 footer{
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-style: italic;
+    text-indent: 3em;
 }
