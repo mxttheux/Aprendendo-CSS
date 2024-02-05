@@ -7,9 +7,10 @@ h1{
     color: aliceblue; font-size: large
 }
 p{
-    color: cornsilk; font: Georgia, 'Times New Roman', serif
+    color: cornsilk; font: Georgia, 'Times New Roman', serif; font-weight: bold;
 }
 footer{
     font-family: 'Courier New', Courier, monospace;
-    color: white
+    color: white;
+    font-style: italic;
 }
