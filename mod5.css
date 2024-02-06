@@ -12,15 +12,16 @@ h1 {
     text-align: right;
 }
 body {
-    background-color: rgb(132, 0, 255);
+    background-color: purple;
     background-image: url('');
 }
 img {
-    height: 240px;
-    width: 350px;
+    alt: "c:/Users/Mateus/Downloads/Math e Jor.jpeg";
+    height: 350px;
+    width: 280px;
 }
 figure {
-    width: 240px;
+    width: 280px;
     padding: 5px;
     border: 2px solid black
 }
