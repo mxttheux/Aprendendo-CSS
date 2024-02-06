@@ -12,7 +12,12 @@ h1 {
     text-align: right;
 }
 body {
-    background-color: purple;
+    background-color: rgb(132, 0, 255);
+    background-image: url('');
+}
+img {
+    height: 240px;
+    width: 350px;
 }
 figure {
     width: 240px;
