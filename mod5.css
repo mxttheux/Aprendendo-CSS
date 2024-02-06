@@ -19,11 +19,12 @@ img {
     alt: "c:/Users/Mateus/Downloads/Math e Jor.jpeg";
     height: 350px;
     width: 280px;
+
 }
 figure {
     width: 280px;
     padding: 5px;
-    border: 2px solid black
+    border: 2px solid black;
 }
 figcaption{
     font-family: Papyrus, fantasy;
