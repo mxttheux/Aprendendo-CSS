@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.margin {
+    /*margin: top right bottom left*/
+    margin: 100px 200px 150px 400px;
+}
+.padding {
+    /*padding: top rught bottom left*/
+    background-color: #333;
+ color: #fff;
+ border-right: 5px red solid;
+ border-left: 5px red solid;
+ border-top: 5px red solid;
+ border-bottom: 5px red solid;
+ border-width: 3px;
+ border-bottom-width: 10px;
+ border-top-style: dotted;
+ padding: 20px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+.bottom {
+    padding: 10px 15px;
+    background-color: gray;
+    border: none;
+    color: #333;
+}
