@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclasses</title>
+    <link rel="stylesheet" href="mod9.css">
+    <style>
+        p:first-child{
+            color: red; 
+        }
+        .mylist li:first-child {
+            background-color: greenyellow;
+        }
+        .mylist li:nth-child(3) {
+            background-color: rgb(255, 145, 0);
+        }
+        .mylist li:last-child {
+            background-color: black;
+        }
+        .mylist {
+            color: white;
+        }
+        body {
+            background-color: purple;
+        }
+        a:hover {
+            color:blanchedalmond
+        }
+        a:active {
+            color:rgb(234, 0, 255);
+        }
+        p::after {
+            content: " - Leia mais em...";
+        }
+        p::before {
+            content: " Leia aqui - ";
+        }
+        p::first-letter {
+            font-size: 200%;
+            color:aliceblue;
+        }
+        h2::first-line {
+            background-color: aqua;
+        }
+        ::selection {
+            background-color: aquamarine;
+            color: gold
+        }
+        .categorias {
+            margin-top: 20px;
+            border: 1px gray solid;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .categorias h3 {
+            text-align: center;
+        }
+        .categorias ul {
+            padding: 15px;
+            list-style: none;
+        }
+        .categorias li {
+            padding-bottom: 8px;
+            border-bottom: dashed 1px #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprendendo pseudoclasses</h1>
+    </header>
+    <section>
+        <article>
+             <p>Claservar</p>
+             <p>JOse</p>
+        </article>
+        <article>
+             <ul class="mylist">
+                <li>Primeiro</li>
+                <li>SEgundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+             </ul>
+        </article>
+        <article>
+            <a href="https://ge.globo.com/futebol/times/sao-paulo/noticia/2024/02/08/sao-paulo-inicia-mudanca-da-fachada-do-morumbis-veja-foto.ghtml">Morumbis</a>
+            <a href="www.wikipedia.org">Wikipedia.org</a>
+            <p> Vemos a diferença de um link para o outro <strong>passando</strong> o mouse em cima.</p>
+        </article>
+        <article>
+            <p>A letra A vai ficar grande com a cor que eu determinar.</p>
+        </article>
+        <article>
+            <h2>IOS é um curso muito bom <br/> ele é bom para aquelas pessoas que não tem condições financeiras de fazer uma faculdade.</h2>
+        </article>
+        <article>
+            <div>armando da silva santos</div>
+        </article>
+    </section>
+    <section>
+        <div class="categorias">
+            <h3>Categorias</h3>
+            <ul>
+            <li><a href="#">Categoria 1</a></li>
+            <li><a href="#">Categoria 2</a></li>
+            <li><a href="#">Categoria 3</a></li>
+            <li><a href="#">Categoria 4</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
