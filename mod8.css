@@ -1,0 +1,39 @@
+@charset "UTF-8";
+section{
+    border: 1px solid red;
+    width: 40%;
+    float: left;
+}
+p {
+    color: darkseagreen;
+}
+div {
+    margin: 5px;
+    width: 50px;
+    height: 100px;
+}
+.esquerda {
+    float:left;
+    background-color: aquamarine;
+    clear: both
+}
+.direita {
+    float: right;
+    background-color: cadetblue;
+}
+.sec1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+}
+.sec2 {
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+p.inline {
+    color: black;
+    display: block;
+}
