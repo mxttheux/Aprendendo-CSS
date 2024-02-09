@@ -5,16 +5,16 @@
 }
 .padding {
     /*padding: top rught bottom left*/
-    background-color: #333;
- color: #fff;
+ color: blueviolet;
  border-right: 5px red solid;
  border-left: 5px red solid;
  border-top: 5px red solid;
  border-bottom: 5px red solid;
  border-width: 3px;
- border-bottom-width: 10px;
+ border-bottom-width: 5px;
  border-top-style: dotted;
  padding: 20px;
+ text-align: center;
 }
 a {
     color:black;
